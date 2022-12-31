@@ -1,15 +1,15 @@
 import React from "react";
 
-class Insertarenfermedades extends React.Component {
+class Editarenfermedades extends React.Component {
     constructor(props) {
         super(props);
     }
     state = {  }
     render() { 
         return ( 
-             <div className="card">
+               <div className="card">
                 <div className="card-header">
-                    Agregar Enfermedades
+                    Editar Enfermedades
                 </div>
                 <div className="card-body">
                     <h4 className="card-title">Title</h4>
@@ -18,11 +18,9 @@ class Insertarenfermedades extends React.Component {
                 <div className="card-footer text-muted">
                     Footer
                 </div>
-             </div>
-
-
+               </div>
          );
     }
 }
  
-export default Insertarenfermedades;
+export default Editarenfermedades;
